@@ -1,2 +1,4 @@
-package com.aton.app.task1;public class Phrase {
+package com.aton.app.task1;
+
+public record Phrase(Integer turn, String phrase) {
 }
